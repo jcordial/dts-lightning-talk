@@ -1,0 +1,24 @@
+{
+  "name": "dts-lightning-talk",
+  "version": "1.0.0",
+  "description": "A demo repo for a Lightning Talk about `d.ts` files given at the IndyJS meetup on April 17th, 2019.",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "test": "",
+    "dtslint": "dtslint types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcordial/dts-lightning-talk.git"
+  },
+  "author": "Jason Cordial <jpcordial@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcordial/dts-lightning-talk/issues"
+  },
+  "homepage": "https://github.com/jcordial/dts-lightning-talk#readme",
+  "devDependencies": {
+    "dtslint": "^0.6.2"
+  }
+}
